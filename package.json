@@ -1,0 +1,18 @@
+{
+  "name": "react-ts-hmzrag",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "highcharts": "6.0.1",
+    "typescript": "3.3.*"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@types/highcharts": "^5.0.39",
+    "ts-loader": "^5.3.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}

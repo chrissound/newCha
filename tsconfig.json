@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es5",
+        "outFile": "compiled.js",
+        "declaration": true,
+        "removeComments": true
+    },
+    "include": [
+        "index.ts"
+    ],
+
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
