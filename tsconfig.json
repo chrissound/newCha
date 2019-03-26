@@ -4,10 +4,11 @@
         "target": "es5",
         "outFile": "compiled.js",
         "declaration": true,
-        "removeComments": true
+        "removeComments": true,
+        "module": "system"
     },
     "include": [
-        "index.ts"
+        "src/*"
     ],
 
     "exclude": [
